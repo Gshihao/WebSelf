@@ -1,12 +1,17 @@
 # SHAOself 提示框
 
-使用这个插件必须引入两个文件
+可以把Alertcss Copy到你的css样式中，然后把
+AlertA Copy到你的script中，即可使用。
+## 使用
+```
+alertA('提示的文本')
+```
 
-引入Alertcss 样式
+引入Alertcss 样式[失效]
 ```
 http://raw.githack.com/Gshihao/WebSelf/main/Alert/Alertcss.css
 ```
-引入 AlertA 脚本
+引入 AlertA 脚本[失效]
 
 ```
 http://raw.githack.com/Gshihao/WebSelf/main/Alert/AlertA.js
