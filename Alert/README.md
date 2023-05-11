@@ -6,7 +6,7 @@
 >```
 >alertA('提示的文本')
 >```
->![效果展示]('IMG_20230511_105500.jpg')
+>![效果展示](https://github.com/Gshihao/WebSelf/blob/a6c09d8c7942f3b5653fa623cbd6ed0146f6ccdb/Alert/IMG_20230511_105500.jpg)
 
 引入Alertcss 样式[失效]
 ```
