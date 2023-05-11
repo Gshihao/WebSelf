@@ -12,5 +12,5 @@ https://github.com/Gshihao/WebSelf/blob/8216992f02f0e89d77f2270b5c64905809c0c995
 https://github.com/Gshihao/WebSelf/blob/8216992f02f0e89d77f2270b5c64905809c0c995/Alert/AlertA.js
 ```
 
-！[图片预览](IMG 20230511_105500.jpg)
+![图片预览]
 
