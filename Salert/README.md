@@ -5,3 +5,4 @@
   ```
   <script sreate="http://raw.githack.com/Gshihao/WebSelf/SHAO/Salert/SalertGSHAO.js"></script>
 ```
+然后直接使用salert('提示的文本')方法
