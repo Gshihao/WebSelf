@@ -3,4 +3,7 @@
  
  [点击跳转](https://github.com/Gshihao/WebSelf/tree/main/Alert)
  
+ #salert
+  Salert是Alert的改进版，通过链接添加
+  [点击链接](https://github.com/Gshihao/WebSelf/tree/a16049dbe51d2990f047cf1a6d1feb6758d0cfce/Salert)
 存储自己写的一些小插件Store some little plug-ins you write
