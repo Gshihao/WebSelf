@@ -1,6 +1,12 @@
 # WebSelf
- Alert是本人自己写的一个小插件，是一个提示框，因为作者感觉alert（）提示框有点不太美观，所以就自己写了一个。但是...但是感觉还没有原生的好，唉，凑活着用吧。
- 
+  webSelf存储库是用来存储一些我在前段学习的道路上写的一些可以供大家一起用的小案例。
+### 目录
+```
+  *原生
+  *Alert 失效
+  *salert
+  *spop
+```
  [点击跳转](https://github.com/Gshihao/WebSelf/tree/main/Alert)
  
  # salert
