@@ -2,13 +2,11 @@
   webSelf存储库是用来存储一些我在前段学习的道路上写的一些可以供大家一起用的小案例。
 ### 目录
 ```
-  > 原生
+  >原生
   * Alert 失效
   * salert
   * spop
 ```
- [点击跳转](https://github.com/Gshihao/WebSelf/tree/main/Alert)
- 
  # salert
  ### 效果展示
  ![效果图](Salert/IMG_20230619_104704.jpg "url")
