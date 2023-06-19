@@ -5,7 +5,7 @@
  
  # salert
  ## 效果展示
- ![效果图](https://github.com/Gshihao/WebSelf/blob/SHAO/Salert/IMG_20230619_104704.jpg?raw=true "url")
+ ![效果图](Salert/IMG_20230619_104704.jpg "url")
   Salert是Alert的改进版，通过链接添加
   [Salert](https://github.com/Gshihao/WebSelf/tree/a16049dbe51d2990f047cf1a6d1feb6758d0cfce/Salert)
 存储自己写的一些小插件Store some little plug-ins you write
