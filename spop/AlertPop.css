@@ -1,0 +1,46 @@
+  /*
+   @module AlertPop;
+   @author SHAO 
+   @version α1.1.1.1 2023/6/19 15:52
+   @copyright: SHAO
+*/
+      *{
+       margin:0px;
+       padding:0px;
+      }
+    .AlertOverride_a{
+      position:absolute;
+      width:100%;
+      height:100%;
+      background-color:rgba(0,0,0,.21); /*遮罩层*/
+      top:0px;
+      display:none;
+      }
+    .AlertContenxt{
+      position:absolute;
+      width:90%;
+      margin:0 auto;
+      background-color:#ffffff;
+      top:40%;
+      left:5%;
+      border-radius:10px 10px 6px 6px;
+      }
+    .AlertContenxtCon{
+      width:80%;
+      margin:25px auto;
+      padding-top:5px;
+      }
+    .AlertContenxtConddjjd{
+      width:80%;
+      margin:0 auto;
+      text-align:right;
+      margin-bottom:10px;
+      }
+    .AlertContenxtBon{
+      width:30%;
+      height:25px;
+      background-color:#ffb900;
+      margin:0 auto;
+      border:0.5px solid black;
+      border-radius:3px;
+      }
