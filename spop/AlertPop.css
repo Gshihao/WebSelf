@@ -4,43 +4,77 @@
    @version α1.1.1.1 2023/6/19 15:52
    @copyright: SHAO
 */
-      *{
-       margin:0px;
-       padding:0px;
+      *{margin:0px;padding:0px;}
+    .choiceBox{
+       width:100%;
+       height:100%;
+       position:absolute;
+       bottom:0px;
+       background-color:rgba(0,0,0,.0);  /*蒙版色*/
+       bottom:-100%;
+       display:none;
       }
-    .AlertOverride_a{
+    .choiceXBox{ 
+      /*内容父容器 f1 隐藏版
+        子绝父相 */
+       position:relative;
+       width:100%;
+       height:100%;
+      }
+    .choiceXBox_F2{
+       position:absolute;
+       width:100%;
+       height:500px;  /*底层高度*/
+       bottom:0px;
+       background-color:#ffffff; /*容器的背景色*/
+       border-radius:20px 20px 0 0;
+       border-top:0.5px solid #dddddd; /*只设置顶部，可以防止左右有余*/
+       box-shadow:-5px  -5px 10px rgba(0,0,0,.05),
+                   -5px  -5px 5px rgba(0,0,0,.05);
+      }
+    .choiceBox_box11{ /*返回按键*/
+       width:100px;
+       border:3px solid rgba(0,0,0,.1);
+       margin:0 auto;
+       margin-top:5px;
+       border-radius:10px;
+      }
+    .choiceBox_box12{
+      width:95%;
+      height:90%;
+      margin:0 auto;
+      margin-top:5px;
+      /*border:0.5px solid black*/
+      box-sizing:border-box;
+      overflow-x:auto;
+      }
+    .choiceBox_box12Top{ /*顶部遮罩层*/
       position:absolute;
       width:100%;
-      height:100%;
-      background-color:rgba(0,0,0,.21); /*遮罩层*/
-      top:0px;
-      display:none;
-      }
-    .AlertContenxt{
-      position:absolute;
-      width:90%;
-      margin:0 auto;
       background-color:#ffffff;
-      top:40%;
-      left:5%;
-      border-radius:10px 10px 6px 6px;
+      height:15px;
+      top:13px;
+      opacity:0.4;
       }
-    .AlertContenxtCon{
-      width:80%;
-      margin:25px auto;
-      padding-top:5px;
+    .choiceBox_box12Botyom{ /*底部遮罩层*/
+      position:absolute;
+      width:100%;
+      background-color:#ffffff;
+      height:15px;
+      bottom:30px;
+      opacity:0.6;
       }
-    .AlertContenxtConddjjd{
-      width:80%;
-      margin:0 auto;
-      text-align:right;
-      margin-bottom:10px;
+    @keyframes showtop{
+      0%{
+        }
+      100%{
+        bottom:0;
+        }
       }
-    .AlertContenxtBon{
-      width:30%;
-      height:25px;
-      background-color:#ffb900;
-      margin:0 auto;
-      border:0.5px solid black;
-      border-radius:3px;
-      }
+    @keyframes CloseBottom{
+       0%{}
+       50%{bottom:-100%;}
+       100%{
+          display:none;
+         }
+    }
